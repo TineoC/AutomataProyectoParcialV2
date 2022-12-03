@@ -38,23 +38,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\any_c\\.nuget\\packages\\": {},
+    "C:\\Users\\kirot\\.nuget\\packages\\": {},
+    "C:\\Users\\kirot\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\any_c\\source\\repos\\practica basica\\ProyectoEvaluacionParserV2\\ProyectoEvaluacionParserV2\\ProyectoEvaluacionParserV2.csproj",
+      "projectUniqueName": "C:\\Users\\kirot\\Source\\Repos\\AutomataProyectoParcialV2\\ProyectoEvaluacionParserV2\\ProyectoEvaluacionParserV2.csproj",
       "projectName": "ProyectoEvaluacionParserV2",
-      "projectPath": "C:\\Users\\any_c\\source\\repos\\practica basica\\ProyectoEvaluacionParserV2\\ProyectoEvaluacionParserV2\\ProyectoEvaluacionParserV2.csproj",
-      "packagesPath": "C:\\Users\\any_c\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\any_c\\source\\repos\\practica basica\\ProyectoEvaluacionParserV2\\ProyectoEvaluacionParserV2\\obj\\",
+      "projectPath": "C:\\Users\\kirot\\Source\\Repos\\AutomataProyectoParcialV2\\ProyectoEvaluacionParserV2\\ProyectoEvaluacionParserV2.csproj",
+      "packagesPath": "C:\\Users\\kirot\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kirot\\Source\\Repos\\AutomataProyectoParcialV2\\ProyectoEvaluacionParserV2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Users\\kirot\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\any_c\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kirot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kirot\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -6,11 +6,11 @@ state: ( id GREATER_THAN transitions | id) SEMI;
 
 transitions: transition+;
 
-id: prop? state_name;
+id: prop state_name;
 
 state_name: TEXT;
 
-prop: initial acceptance | initial | acceptance;
+prop: initial? acceptance?;
 
 initial: HASH_TAG;
 
@@ -18,8 +18,8 @@ acceptance: ASTERISK;
 
 transition:
 	input SEPARATOR (
-		state_name
-		| OPEN_BRACKET (state_name COMMA*)+ CLOSE_BRACKET
+		OPEN_BRACKET state_name (COMMA state_name)+ CLOSE_BRACKET
+		| state_name
 	) COMMA*;
 
 input: TEXT;
