@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dtYTVOylnjaeyyw6OZBW0Kfk2F3s32Mm/pCyeWtBlkcBMpsxPUbv5w6FPlthHySH43S8iseGyvF+m2NGmR5gYg==",
+  "dgSpecHash": "jLY+M6NG5x6kP4krCD9oli625OT4Uv9KbprU04+yJ0nunFfx9VwBxTZdrvBTGbK/JNLVn4IqCT0dmxSqlfzAqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kirot\\source\\repos\\AutomataProyectoParcialV2\\ProyectoEvaluacionParserV2\\ProyectoEvaluacionParserV2.csproj",
+  "projectFilePath": "C:\\Users\\chris\\source\\repos\\AutomataProyectoParcialV2\\ProyectoEvaluacionParserV2\\ProyectoEvaluacionParserV2.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kirot\\.nuget\\packages\\antlr4.runtime.standard\\4.9.2\\antlr4.runtime.standard.4.9.2.nupkg.sha512"
+    "C:\\Users\\chris\\.nuget\\packages\\antlr4.runtime.standard\\4.9.2\\antlr4.runtime.standard.4.9.2.nupkg.sha512"
   ],
   "logs": []
 }

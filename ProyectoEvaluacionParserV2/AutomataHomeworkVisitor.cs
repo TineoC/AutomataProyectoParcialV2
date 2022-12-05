@@ -18,9 +18,14 @@ namespace ProyectoEvaluacionParserV2
             // Crea el objeto vacio
             Automata automata = new Automata();
 
-            List<ImplicitState> sts = context.state().Select( // Para todos contextos de estados que encuentre...
-                (ctx) =>  { return VisitState(ctx); })        // Conviertelos en estados
+            List<ImplicitState> sts = context.state().Select( 
+                // Para todos contextos de estados que encuentre...
+                (ctx) =>  {
+                    // Conviertelos en estados
+                    return VisitState(ctx);
+                })        
                 .ToList();
+
 
             // Para todos los estados...
             foreach (ImplicitState implState in sts)
